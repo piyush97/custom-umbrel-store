@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: fileflows
+name: File Flows
+tagline: Easily monitor and process files using easy to use flows.
+icon: https://fileflows.com/img/logo.svg
+category: Files & Productivity
+version: "1.0.0"
+port: 5000
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: Piyush Mehta
+website: https://fileflows.com
+submitter: Piyush Mehta
+submission: https://github.com/piyush/custom-umbrel-store
+repo: https://github.com/piyush/custom-umbrel-store
+support: https://github.com/piyush/custom-umbrel-store/issues
+gallery:
+  - https://fileflows.com/images/dashboard/settings.webp
+  - https://fileflows.com/images/dashboard/dashboard.webp
+  - https://fileflows.com/images/dashboard/scripts.jpg
+releaseNotes: >-
+  Initial release of File Flows.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
