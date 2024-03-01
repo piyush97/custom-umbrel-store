@@ -3,7 +3,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: piyush-homelab-fileflows_server_1
+      APP_HOST: piyush-homelab-fileflows_fileflows_1
       APP_PORT: 5001
 
   server:
