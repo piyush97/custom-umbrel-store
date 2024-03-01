@@ -3,10 +3,10 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: fileflows_fileflows_1
-      APP_PORT: 5000
+      APP_HOST: piyush-homelab-fileflows_server_1
+      APP_PORT: 5001
 
-  fileflows:
+  server:
     image: revenz/fileflows
     init: true
     container_name: fileflows
@@ -15,10 +15,8 @@ services:
       - TempPathHost=/temp
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - /path/to/data:/app/Data
-      - /path/to/logs:/app/Logs
+      - ${APP_DATA_DIR}/data:/app/Data
+      - ${APP_DATA_DIR}/data/logs:/app/Logs
       - /path/to/temp:/temp
       - /media/media-for-home:/media
-    ports:
-      - 5000:5000
     restart: unless-stopped

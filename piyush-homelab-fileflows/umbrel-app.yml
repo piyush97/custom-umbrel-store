@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: fileflows
+id: piyush-homelab-fileflows
 name: File Flows
 tagline: Easily monitor and process files using easy to use flows.
 icon: https://fileflows.com/img/logo.svg
 category: Files & Productivity
 version: "1.0.0"
-port: 5000
+port: 5001
 description: >-
   Add your app's description here.
 
