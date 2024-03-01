@@ -5,7 +5,7 @@ tagline: Easily monitor and process files using easy to use flows.
 icon: https://fileflows.com/img/logo.svg
 category: Files & Productivity
 version: "1.0.0"
-port: 5111
+port: 5123
 description: >-
   File Flows is a simple and easy to use file processing tool. It allows you to monitor files and process them using simple flows. It is designed to be easy to use and can be used by anyone. It is a great tool for anyone who needs to monitor and process files.
 

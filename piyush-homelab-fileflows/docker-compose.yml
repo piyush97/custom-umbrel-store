@@ -9,9 +9,6 @@ services:
   server:
     image: revenz/fileflows
     init: true
-    container_name: fileflows
-    ports:
-      - "5001:5000"
     environment:
       - TZ=America/Toronto
       - TempPathHost=/temp
