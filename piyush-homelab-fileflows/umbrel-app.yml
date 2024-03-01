@@ -7,10 +7,7 @@ category: Files & Productivity
 version: "1.0.0"
 port: 5111
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
+  File Flows is a simple and easy to use file processing tool. It allows you to monitor files and process them using simple flows. It is designed to be easy to use and can be used by anyone. It is a great tool for anyone who needs to monitor and process files.
 
 developer: Piyush Mehta
 website: https://fileflows.com
