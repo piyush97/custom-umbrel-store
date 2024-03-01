@@ -17,6 +17,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ${APP_DATA_DIR}/data:/app/Data
       - ${APP_DATA_DIR}/data/logs:/app/Logs
-      - /path/to/temp:/temp
+      - ${APP_DATA_DIR}/data/temp:/temp
       - /media/media-for-home:/media
     restart: unless-stopped
