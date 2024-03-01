@@ -11,7 +11,7 @@ services:
     init: true
     container_name: fileflows
     ports:
-      - "5001:5001"
+      - "5001:5000"
     environment:
       - TZ=America/Toronto
       - TempPathHost=/temp
