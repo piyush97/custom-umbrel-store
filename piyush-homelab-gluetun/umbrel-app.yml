@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: piyush-homelab-gluetun
+name: GlueTun
+tagline: Easily manage your VPN connections.
+icon: https://raw.githubusercontent.com/qdm12/gluetun/master/title.svg
+category: Files & Productivity
+version: "1.0.0"
+port: 2525
+description: >-
+  GlueTun is a simple and easy to use VPN manager. It allows you to manage your VPN connections using a simple and easy to use interface. It is designed to be easy to use and can be used by anyone. It is a great tool for anyone who needs to manage their VPN connections.
+
+developer: Piyush Mehta
+website: https://github.com/qdm12/gluetun
+submitter: Piyush Mehta
+submission: https://github.com/piyush/custom-umbrel-store
+repo: https://github.com/piyush/custom-umbrel-store
+support: https://github.com/piyush/custom-umbrel-store/issues
+gallery:
+  - https://raw.githubusercontent.com/qdm12/gluetun/master/title.svg
+releaseNotes: >-
+  Initial release of GlueTun.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
