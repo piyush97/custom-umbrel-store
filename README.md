@@ -30,7 +30,7 @@ sudo ~/umbrel/scripts/repo update
 To install an app from the app store
 
 ```
-sudo ~/umbrel/scripts/app install fileflows
+sudo ~/umbrel/scripts/app install piyush-homelab-APP_NAME
 ```
 
 To remove an app store:
